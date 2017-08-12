@@ -1,29 +1,29 @@
 {
-  "name": "kodilla-grunt-test",
-  "version": "1.0.0",
-  "description": "test grunt project",
-  "main": "index.js",
-  "scripts": {
-    "test": "kodilla-test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kinsza/Repo-mod4.5.git"
-  },
-  "keywords": [
-    "grunt"
-  ],
-  "author": "Kinga Szacun",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kinsza/Repo-mod4.5/issues"
-  },
-  "homepage": "https://github.com/Kinsza/Repo-mod4.5#readme",
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-browser-sync": "^2.2.0",
-    "grunt-contrib-imagemin": "^2.0.1",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^2.0.0"
-  }
+    "name": "kodilla-grunt-test",
+    "version": "1.0.0",
+    "description": "test grunt project",
+    "main": "index.js",
+    "scripts": {
+        "test": "kodilla-test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kinsza/Repo-mod4.5.git"
+    },
+    "keywords": [
+        "grunt"
+    ],
+    "author": "Kinga Szacun",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Kinsza/Repo-mod4.5/issues"
+    },
+    "homepage": "https://github.com/Kinsza/Repo-mod4.5#readme",
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-browser-sync": "^2.2.0",
+        "grunt-contrib-imagemin": "^2.0.1",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-sass": "^2.0.0"
+    }
 }
