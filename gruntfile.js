@@ -1,17 +1,10 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
+
+    'use strict';
 
     // Project configuration.
     grunt.initConfig({
 
-        watch: {
-            scripts: {
-                files: ['sass/style4.5.sass'],
-                tasks: ['sass'],
-                options: {
-                    spawn: false,
-                }
-            }
-        },
         sass: {
             options: {
                 sourceMap: true
@@ -38,12 +31,22 @@ module.exports = function(grunt) {
                 src: 'css/*.css'
             },
             options: {
+                watchTask: true,
                 server: {
-                    baseDir: "./"
+                    baseDir: "./",
+                    index: "index4.5.html"
                 }
             }
         },
-        
+        watch: {
+            scripts: {
+                files: ['sass/style4.5.sass'],
+                tasks: ['sass'],
+                options: {
+                    spawn: false
+                }
+            }
+        }
 
     });
     // Load the plugins tasks
